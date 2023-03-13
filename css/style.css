@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap');
+
+.bgAmarelo { background-image: url('../img/bg1.png'); }
+
+.bdDashed { border: 2px dashed rgb(112, 77, 24)  }
+
+.fMarrom { color: rgb(112, 77, 24) }
+
+footer { background-image: url('../img/bg-footer.png'); background-repeat: no-repeat; background-size: cover; }
+
+h1 { font-size: 7rem; }
+h4 { font-size: 4rem; }
+
+.imgBurger { max-width: 450px; height: 300px; }
+
+p { width: fit-content; font-size: .8rem;}
+
+.font1 { font-family: 'Alfa Slab One', cursive; }
+.font2 {font-family: 'Bebas Neue', cursive;  }
+
+.txtSpacing { letter-spacing: 5px; }
+.txtShadow { text-shadow: 2px 2px 0px #FFF; }
+
+@media  screen and (max-width: 399px) {
+    .bdDashed { font-size: .5rem; }
+    h1 { font-size: 2rem; }
+    h4 { font-size: .9rem; }
+}
+@media  screen and (min-width: 400px) and (max-width: 549px) {
+    .bdDashed { font-size: .5rem; }
+    h1 { font-size: 3rem; }
+    h2 { font-size: 1rem; }
+    h4 { font-size: 1rem; }
+}
+@media  screen and (min-width: 550px) and (max-width: 767px) {
+    .bdDashed { font-size: .7rem; }
+    h1 { font-size: 3rem; }
+    h2 { font-size: 1rem; }
+    h4 { font-size: 1rem; }
+}
+@media  screen and (min-width: 768px) and (max-width: 979px) {
+    h1 { font-size: 4rem; }
+    h2 { font-size: 2rem; }
+    h4 { font-size: 2rem; }
+}
+@media  screen and (min-width: 980px) and (max-width: 1200px) {
+    h1 { font-size: 5rem; }
+    h2 { font-size: 3rem; }
+    h4 { font-size: 3rem; }
+}
